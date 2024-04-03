@@ -3,14 +3,25 @@
 
 using namespace std;
 
-void Log(string i)
+template <typename Debug>
+
+void Log(Debug log)
 {
-    cout << i << endl;
+    cout << log << endl;
 }
 
 int main()
 {
-    Log("hello word");
+    
+    int vetor[5];
+
+    for(int i = 0 ; i < sizeof(vetor)/sizeof(vetor[0]) ; i++)
+    {
+        vetor[i]=i+1;
+        Log(vetor[i]);
+    }
+
+    Log("exit");
 
     return 0;
     
