@@ -1,10 +1,16 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
+void Log(string i)
+{
+    cout << i << endl;
+}
+
 int main()
 {
-    cout << "hello word" << endl;
+    Log("hello word");
 
     return 0;
     
