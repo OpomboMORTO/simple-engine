@@ -1,2 +1,2 @@
 # simple-engine-c-
-motor de jogos em c++ a
+motor de jogos em c++
