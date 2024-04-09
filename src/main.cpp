@@ -5,10 +5,8 @@
 #include <ctime>
 #include <cmath>
 #include <SFML/Graphics.hpp>
-
-#include "../include/textures_manager.h"
-#include "../include/physics_manager.h"
-#include "../include/game_object.h"
+#include "../include/TextureManager.h"
+#include "../include/PhysicsManager.h"
 
 using namespace std;
 

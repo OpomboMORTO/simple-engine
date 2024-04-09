@@ -1,6 +1,6 @@
 //TextureManager
 
-#include "../include/textures_manager.h"
+#include "../include/TextureManager.h"
 #include <iostream>
 
 // Implementacao do metodo
