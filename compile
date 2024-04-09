@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Nome do executável final
+EXECUTAVEL="main"
+
+# Compilação dos arquivos fonte
+g++ -std=c++11 -Wall -Wextra -pedantic -o $EXECUTAVEL src/*.cpp -I include -L lib -l sfml-graphics -l sfml-window -l sfml-system
+
+# Verifica se a compilação foi bem-sucedida
+if [ $? -eq 0 ]; then
+    echo "Compilação concluída com sucesso."
+    echo "Para executar o programa, execute ./$EXECUTAVEL"
+else
+    echo "Erro durante a compilação."
+fi
