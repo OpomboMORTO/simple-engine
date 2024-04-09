@@ -1,11 +1,11 @@
-#ifndef GAMEOBJECT_H
-#define GAMEOBJECT_H
+#ifndef GAME_OBJECT_H
+#define GAME_OBJECT_H
 
 #include <memory>
 #include <string>
 #include <SFML/Graphics.hpp>
-#include "../include/TextureManager.h"
-#include "../include/PhysicsManager.h"
+#include "../include/textures_manager.h"
+#include "../include/physics_manager.h"
 
 class GameObject : public Colider, public std::enable_shared_from_this<GameObject>
 {
@@ -109,4 +109,4 @@ public:
 
 };
 
-#endif //GAMEOBJECT_H
+#endif //GAME_OBJECT_H
