@@ -1,4 +1,4 @@
-#include "../include/PhysicsManager.h"
+#include "../include/physics_manager.h"
 
 void ColiderManager::addColider(const std::shared_ptr<Colider>& colider) {
     coliders.push_back(colider);

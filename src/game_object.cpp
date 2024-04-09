@@ -1,4 +1,4 @@
-#include "../include/GameObject.h"
+#include "../include/game_object.h"
 #include <iostream>
 #include <string>
 
