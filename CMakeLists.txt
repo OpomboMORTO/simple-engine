@@ -12,9 +12,9 @@ include_directories(include)
 # Definindo a lista de arquivos de origem
 set(SRCS
     src/main.cpp
-    src/texture_manager.cpp
-    src/physics_manager.cpp
-    src/game_object.cpp
+    src/TextureManager.cpp
+    src/PhysicsManager.cpp
+    src/GameObject.cpp
 )
 
 # Adicionando o executável
